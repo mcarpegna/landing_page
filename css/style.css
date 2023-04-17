@@ -1,0 +1,199 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3.6rem;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+a,
+.header .header-body p {
+    font-size: 1.8rem;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882F6;    
+    color: #F9FAF8;
+    border: none;
+    border-radius: .5rem;
+    width: fit-content;
+    padding: .5rem 2rem;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    width: 100%;
+    padding: 1.6rem 0;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 0 15rem;
+}
+
+.header .header-ribbon,
+.header .header-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-ribbon .logo {
+    font-size: 2.4rem;
+    color: #F9FAF8;
+}
+
+.header-ribbon .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+
+.header-body {
+    padding: 10rem 0;
+}
+
+.header-body .left {
+    margin:0 4rem 0 0;   
+}
+
+.header-body .left p {
+    margin: 0;
+}
+
+.header-body .left button {
+    margin: 1rem 0;
+}
+
+.header-body .right {
+    display: flex;
+    align-items: center;
+}
+
+.header-body .right img {
+    width: auto;
+    height: 20rem;
+}
+
+/* .container {
+} */
+
+.container .container-top {
+    padding-bottom: 8rem;
+}
+
+.container .container-top .items {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container .container-top .items .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container .container-top .items .item img{
+    width: 15rem;
+    height: auto;
+    border: 0.2rem solid #3882F6;
+    border-radius: 1rem;
+}
+
+.container .container-top .item p {
+    text-align: center;
+    width: 15rem;
+    height: auto;
+}
+
+.container .container-center {
+    padding: 8rem 25rem;
+    background-color: #E5E7EB;
+}
+
+.container .container-center p {
+    font-size: 3.6rem;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0 2rem;
+}
+
+.container .container-center h4 {
+    text-align: end;
+    margin: .2rem 2rem 0;
+}
+
+.container .container-bottom {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 10rem 0;
+}
+
+.container .container-bottom .call {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: .5rem;
+    display: flex; 
+    padding: 2rem;
+    gap: 5rem;  
+}
+
+.container .container-bottom .call-text {
+    padding: 0 5rem;
+}
+
+.container .container-bottom .call-text h4 {
+    margin:  1rem 0 .5rem 0 ;
+}
+
+.container .container-bottom .call-text p {
+    margin: 0 0 1rem 0;
+}
+
+.container .container-bottom .call .call-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem;
+}
+
+.container .container-bottom .call button {
+    border: .2rem solid #F9FAF8;
+}
